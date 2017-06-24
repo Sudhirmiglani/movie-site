@@ -2,6 +2,9 @@ from movie import Movie
 
 
 def fetch_movies():
+    """ fetches data from data.txt file and
+        returns a list of  Movie objects
+    """
     movies = []
     # Read data from data.txt
     with open("data.txt") as f:

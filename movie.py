@@ -1,5 +1,6 @@
 class Movie:
     def __init__(self, id, title, story_line, image, youtube_link):
+        """" constructor function to initialise data """
         self.id = id
         self.title = title
         self.story_line = story_line
